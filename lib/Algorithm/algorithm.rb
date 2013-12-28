@@ -1,14 +1,22 @@
 class Algorithm
-  def find_larget_integer (*integers)
-    largest = integers[0]
-    for iteration = 1 to integers[integers.length]
-      if integers[iteration] > largest
-      then
-        largest = integers[iteration]
 
+
+  def find_largest_integer (*integers)
+
+    largest = 0
+
+    integers.each do |integer_iteration|
+
+      if integer_iteration > largest
+      then
+        largest = integer_iteration
       end
+
     end
 
-    largest
+    return largest
+
   end
+
+
 end
