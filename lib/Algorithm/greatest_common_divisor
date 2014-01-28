@@ -1,0 +1,13 @@
+class GreatestCommonDivisor
+  #Obtain two inputs a and b
+  # Check if they are integeres, else error out
+  # Divide a by b.
+  # Get Remainder
+  # Remainder , r would be between 0 <= r <= b
+  # if r == 0 then end
+  # else set a == n, b == r , repeat
+
+
+
+
+end
