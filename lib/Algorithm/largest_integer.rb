@@ -1,5 +1,5 @@
 # Defining a class Algorithm.
-class Algorithm
+class LargestInteger
   # defining a method to find the largest integer
   def find_largest_integer(integers)
     largest = initialize_and_length__of_array(integers)
@@ -43,6 +43,6 @@ array = [1.1, 4, 5, 6, 4, 6, 7, 9, 4, 4.1]
 
 puts "This is the length of the array #{array.length}"
 
-largest_number = Algorithm.new
+largest_number = LargestInteger.new
 
 largest_number.find_largest_integer(array)
