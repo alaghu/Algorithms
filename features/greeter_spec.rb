@@ -1,9 +1,21 @@
-require 'rspec'
+require 'spec_helper'
 
-describe 'My behaviour' do
 
-  it 'should do something' do
+class RspecGreeter
+  def greet
+    "Hello Rspec!"
+  end
 
-    true.should == false
+end
+
+
+describe 'Rspec Greeter' do
+
+  it "should say 'Hello Rspec!' when it recieves the greet() message  " do
+
+    greeter = RspecGreeter.new
+    greeting = greeter.greet
+    greeting.should == "Hello Rspec!"
+
   end
 end

@@ -3,7 +3,7 @@ class GreatestCommonDivisor
     if is_the_value_an_integer?(a)
       if is_the_value_an_integer?(b)
 
-        remainder = a % b
+        remainder =  a % b
 
         if remainder == 0
           greatest_common_divisor = b

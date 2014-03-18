@@ -1,9 +1,23 @@
-require 'rspec'
+require_relative 'spec_helper'
 
-describe 'My behaviour' do
+describe 'Largest Integer' do
 
-  it 'should do something' do
+  it 'should find the largest integer' do
+    list_of_numbers = [1.1, 4, 5, 6, 4, 6, 7, 9, 4, 4.1]
+    largest = LargestInteger.new
+    output = largest.find_largest_integer list_of_numbers
 
-    true.should == false
+    output.should == 9
+
   end
+
+  it 'should find the largest integer' do
+    array = [1.1, 4, 5, 6, 4, 6, 7, 19, 4, 19 , 4.1]
+    largest = LargestInteger.new
+    output = largest.find_largest_integer array
+
+    output.should == 19
+
+  end
+
 end
