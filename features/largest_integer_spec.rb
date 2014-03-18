@@ -20,4 +20,19 @@ describe 'Largest Integer' do
 
   end
 
+
+  it 'should return zero' do
+    # only zero is passed
+  end
+
+  it 'should return zero' do
+    # when negative numbers are passed
+  end
+
+
+  it 'should return zero' do
+    # when decimals are passed
+  end
+
+
 end
