@@ -1,6 +1,6 @@
 # Defining a class Algorithm.
 class LargestInteger
-  # defining a method to find the largest integer
+
   def find_largest_integer(integers)
     largest = 0
 
