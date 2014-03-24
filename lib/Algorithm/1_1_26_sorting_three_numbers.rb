@@ -7,17 +7,18 @@ class SortThree
       temp = a
       a = b
       b = temp
+    end
 
-    elsif a > c
+    if a > c
       temp = a
       a = c
       c = temp
+    end
 
-    elsif b > c
+    if b > c
       temp = b
       b = c
       c = temp
-
     end
 
     [a, b, c]
