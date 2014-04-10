@@ -10,3 +10,5 @@ gem 'rspec'
 # for code coverage
 gem 'simplecov'
 
+# online code coverage
+gem 'coveralls', require: false
