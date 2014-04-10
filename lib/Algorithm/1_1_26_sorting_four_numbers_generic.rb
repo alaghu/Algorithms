@@ -28,11 +28,6 @@ class SortFour
       c = temp
     end
 
-
-
-
-
-
     [a, b, c, d]
   end
 end
