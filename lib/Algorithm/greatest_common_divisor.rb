@@ -1,14 +1,13 @@
+# class for finding the greatest common divisor
 class GreatestCommonDivisor
   def find_the_greatest_commom_divisor(a, b)
-    if is_the_value_an_integer?(a)
-      if is_the_value_an_integer?(b)
+    if the_value_an_integer?(a)
+      if the_value_an_integer?(b)
 
-        remainder =  a % b
+        remainder = a % b
 
         if remainder == 0
-          greatest_common_divisor = b
-          puts "The greatest common divisor or #{a} is
-#{greatest_common_divisor}"
+          puts "The greatest common divisor or #{a} is #{b}"
         else
           a = b
           b = remainder
@@ -17,10 +16,9 @@ class GreatestCommonDivisor
       end
     end
 
-    def is_the_value_an_integer?(input)
-      until input.is_a? Fixnum
-        puts "Sorry #{input} is not an integer."
-      end
+    def the_value_an_integer?(input)
+      puts "Sorry #{input} is not an integer." until input.is_a? Fixnum
+
       input
     end
   end

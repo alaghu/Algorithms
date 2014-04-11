@@ -22,9 +22,6 @@ describe 'Sorting three numbers' do
 
   end
 
-
-
-
   it 'should return 1 2 3 when 3 2 1 are the input' do
 
     sorted = SortThree.new
@@ -34,6 +31,28 @@ describe 'Sorting three numbers' do
     expect(output).to eq([1, 2, 3])
 
   end
+
+  it 'should return 2 3 4 when 4 3 2 are the input' do
+
+    sorted = SortThree.new
+
+    output = sorted.sort_the_numbers(4, 3, 2)
+
+    expect(output).to eq([2, 3, 4])
+
+  end
+
+  it 'should return 2 3 4 when 3 4 2 are the input' do
+
+    sorted = SortThree.new
+
+    output = sorted.sort_the_numbers(3, 4, 2)
+
+    expect(output).to eq([2, 3, 4])
+
+  end
+
+
 end
 
 # Deprecation of should method for array
