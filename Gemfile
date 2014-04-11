@@ -12,3 +12,5 @@ gem 'simplecov'
 
 # online code coverage
 gem 'coveralls', require: false
+
+gem 'rake'
