@@ -14,7 +14,7 @@
       <img src="./assets/0.8.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2014-04-10T21:07:21-07:00">2014-04-10T21:07:21-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2014-04-11T18:52:04-07:00">2014-04-11T18:52:04-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,15 +25,15 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         2.77
+         3.33
        </span>
     </span> hits/line)
   </h2>
   <a name="AllFiles"></a>
   <div>
     <b>3</b> files in total.
-    <b>39</b> relevant lines. 
-    <span class="green"><b>39</b> lines covered</span> and
+    <b>35</b> relevant lines. 
+    <span class="green"><b>35</b> lines covered</span> and
     <span class="red"><b>0</b> lines missed </span>
   </div>
   <table class="file_list">
@@ -63,11 +63,11 @@
       <tr>
         <td class="strong"><a href="#30c1afa52409cf8e4c81d302562dbb0676dc87af" class="src_link" title="lib/Algorithm/1_1_26_sorting_three_numbers.rb">lib/Algorithm/1_1_26_sorting_three_numbers.rb</a></td>
         <td class="green strong">100.0 %</td>
-        <td>34</td>
-        <td>15</td>
-        <td>15</td>
+        <td>20</td>
+        <td>11</td>
+        <td>11</td>
         <td>0</td>
-        <td>3.1</td>
+        <td>5.0</td>
       </tr>
       
       <tr>
@@ -323,8 +323,8 @@
     <h3>lib/Algorithm/1_1_26_sorting_three_numbers.rb</h3>
     <h4><span class="green">100.0 %</span> covered</h4>
     <div>
-      <b>15</b> relevant lines. 
-      <span class="green"><b>15</b> lines covered</span> and
+      <b>11</b> relevant lines. 
+      <span class="green"><b>11</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
   </div>
@@ -353,31 +353,31 @@
         <li class="covered" data-hits="5" data-linenumber="4">
           <span class="hits">5</span>
           
-          <code class="ruby">    if a &gt; b</code>
+          <code class="ruby">    a, b = swap_values(a, b) if a &gt; b</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="5">
-          <span class="hits">2</span>
+        <li class="never" data-hits="" data-linenumber="5">
           
-          <code class="ruby">      temp = a</code>
+          
+          <code class="ruby"></code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="6">
-          <span class="hits">2</span>
+        <li class="covered" data-hits="5" data-linenumber="6">
+          <span class="hits">5</span>
           
-          <code class="ruby">      a = b</code>
+          <code class="ruby">    a, c = swap_values(a, c) if a &gt; c</code>
         </li>
       
-        <li class="covered" data-hits="2" data-linenumber="7">
-          <span class="hits">2</span>
+        <li class="never" data-hits="" data-linenumber="7">
           
-          <code class="ruby">      b = temp</code>
+          
+          <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="8">
+        <li class="covered" data-hits="5" data-linenumber="8">
+          <span class="hits">5</span>
           
-          
-          <code class="ruby">    end</code>
+          <code class="ruby">    b, c = swap_values(b, c) if b &gt; c</code>
         </li>
       
         <li class="never" data-hits="" data-linenumber="9">
@@ -389,151 +389,67 @@
         <li class="covered" data-hits="5" data-linenumber="10">
           <span class="hits">5</span>
           
-          <code class="ruby">    if a &gt; c</code>
-        </li>
-      
-        <li class="covered" data-hits="3" data-linenumber="11">
-          <span class="hits">3</span>
-          
-          <code class="ruby">      temp = a</code>
-        </li>
-      
-        <li class="covered" data-hits="3" data-linenumber="12">
-          <span class="hits">3</span>
-          
-          <code class="ruby">      a = c</code>
-        </li>
-      
-        <li class="covered" data-hits="3" data-linenumber="13">
-          <span class="hits">3</span>
-          
-          <code class="ruby">      c = temp</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="14">
-          
-          
-          <code class="ruby">    end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="15">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="5" data-linenumber="16">
-          <span class="hits">5</span>
-          
-          <code class="ruby">    if b &gt; c</code>
-        </li>
-      
-        <li class="covered" data-hits="3" data-linenumber="17">
-          <span class="hits">3</span>
-          
-          <code class="ruby">      temp = b</code>
-        </li>
-      
-        <li class="covered" data-hits="3" data-linenumber="18">
-          <span class="hits">3</span>
-          
-          <code class="ruby">      b = c</code>
-        </li>
-      
-        <li class="covered" data-hits="3" data-linenumber="19">
-          <span class="hits">3</span>
-          
-          <code class="ruby">      c = temp</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="20">
-          
-          
-          <code class="ruby">    end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="21">
-          
-          
-          <code class="ruby"></code>
-        </li>
-      
-        <li class="covered" data-hits="5" data-linenumber="22">
-          <span class="hits">5</span>
-          
           <code class="ruby">    [a, b, c]</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="23">
+        <li class="never" data-hits="" data-linenumber="11">
           
           
           <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="24">
-          
-          
-          <code class="ruby">end</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="25">
+        <li class="never" data-hits="" data-linenumber="12">
           
           
           <code class="ruby"></code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="26">
+        <li class="covered" data-hits="1" data-linenumber="13">
+          <span class="hits">1</span>
           
-          
-          <code class="ruby">#</code>
+          <code class="ruby">  def swap_values(value1, value2)</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="27">
+        <li class="covered" data-hits="8" data-linenumber="14">
+          <span class="hits">8</span>
           
-          
-          <code class="ruby"># def swap_values(value1, value2)</code>
+          <code class="ruby">    temp = value1</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="28">
+        <li class="covered" data-hits="8" data-linenumber="15">
+          <span class="hits">8</span>
           
-          
-          <code class="ruby">#   temp = value1</code>
+          <code class="ruby">    value1 = value2</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="29">
+        <li class="covered" data-hits="8" data-linenumber="16">
+          <span class="hits">8</span>
           
-          
-          <code class="ruby">#   value1 = value2</code>
+          <code class="ruby">    value2 = temp</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="30">
+        <li class="covered" data-hits="8" data-linenumber="17">
+          <span class="hits">8</span>
           
-          
-          <code class="ruby">#   value2 = temp</code>
+          <code class="ruby">    [value1, value2]</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="31">
+        <li class="never" data-hits="" data-linenumber="18">
           
           
-          <code class="ruby">#</code>
+          <code class="ruby">  end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="32">
+        <li class="never" data-hits="" data-linenumber="19">
           
           
-          <code class="ruby">#   [value1, value2]</code>
+          <code class="ruby">end</code>
         </li>
       
-        <li class="never" data-hits="" data-linenumber="33">
+        <li class="never" data-hits="" data-linenumber="20">
           
           
-          <code class="ruby">#</code>
-        </li>
-      
-        <li class="never" data-hits="" data-linenumber="34">
-          
-          
-          <code class="ruby"># end</code>
+          <code class="ruby"></code>
         </li>
       
     </ol>
