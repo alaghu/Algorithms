@@ -1,6 +1,7 @@
 # To sort three numbers creative ex 1.1.26
 class SortThree
   def sort_the_numbers(a, b, c)
+    # sort one by one upto three
     a, b = swap_values(a, b) if a > b
 
     a, c = swap_values(a, c) if a > c
