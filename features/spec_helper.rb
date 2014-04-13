@@ -9,6 +9,5 @@ SimpleCov.formatter = SimpleCov::Formatter::MultiFormatter[
     Coveralls::SimpleCov::Formatter
 ]
 
-
 require_relative '../lib/Algorithm/largest_integer'
 require_relative '../lib/Algorithm/1_1_26_sorting_three_numbers'

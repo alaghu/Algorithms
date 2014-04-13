@@ -52,9 +52,9 @@ describe 'Sorting three numbers' do
 
   end
 
-
 end
 
 # Deprecation of should method for array
 # output.should be [1, 2, 3]
-# http://stackoverflow.com/questions/21102549/why-is-the-where-query-in-rails-returning-a-different-object
+# http://stackoverflow.com/questions/21102549/
+# why-is-the-where-query-in-rails-returning-a-different-object
