@@ -48,7 +48,7 @@ describe 'Sorting three numbers' do
 
     output = sorted.sort_the_numbers(3, 4, 2)
 
-    expect(output).to eq([2, 3, 2])
+    expect(output).to eq([2, 3, 4])
 
   end
 
