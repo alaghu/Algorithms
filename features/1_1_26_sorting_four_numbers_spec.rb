@@ -1,6 +1,6 @@
 require_relative 'spec_helper'
 
-describe 'Sorting three numbers' do
+describe 'Sorting four numbers' do
 
   it 'should return the same when the input is all the same numbers' do
 
@@ -16,7 +16,7 @@ describe 'Sorting three numbers' do
 
     sorted = SortFour.new
 
-    output = sorted.sort_the_numbers(0, 0, 0)
+    output = sorted.sort_the_numbers(0, 0, 0, 0)
 
     expect(output).to eq([0, 0, 0, 0])
 

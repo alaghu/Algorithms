@@ -10,7 +10,13 @@ class SortFour
 
     b, c = swap_values(b, c) if b > c
 
-    b, c = swap_values(b, d) if b > d
+    c, b = swap_values(c, b) if c > b
+
+    b, d = swap_values(b, d) if b > d
+
+    c, d = swap_values(c, d) if c > d
+
+    b, c = swap_values(b, c) if b > c
 
     [a, b, c, d]
   end
