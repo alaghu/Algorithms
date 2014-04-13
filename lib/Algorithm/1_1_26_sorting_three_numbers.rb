@@ -8,7 +8,7 @@ class SortThree
 
     b, c = swap_values(b, c) if b > c
 
-    [a, b, c]        hello
+    [a, b, c]
   end
 
   def swap_values(value1, value2)
