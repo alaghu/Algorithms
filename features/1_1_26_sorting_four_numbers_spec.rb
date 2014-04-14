@@ -52,6 +52,17 @@ describe 'Sorting four numbers' do
 
   end
 
+  it 'should return 1 2 3 4 when 1 4 3 2 are the input' do
+
+    sorted = SortFour.new
+
+    output = sorted.sort_the_numbers(1, 4, 3, 2)
+
+    expect(output).to eq([1, 2, 3, 4])
+
+  end
+
+
 end
 
 # Deprecation of should method for array
