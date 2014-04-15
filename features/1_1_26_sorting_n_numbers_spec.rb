@@ -33,6 +33,17 @@ describe 'Sorting n numbers' do
   end
 
 
+  it 'should return 2 at second element when  10 9 8 7 6 5 4 3 2 1 are the input' do
+
+    sorted = SortN.new
+
+    output = sorted.sort_the_numbers([10, 9 , 8, 7, 6, 5, 4, 3, 2, 1])
+
+    expect(output[1]).to eq(2)
+
+  end
+
+
 
 end
 
