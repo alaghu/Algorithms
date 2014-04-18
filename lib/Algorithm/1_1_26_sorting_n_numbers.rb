@@ -1,33 +1,26 @@
 # To sort n numbers using the creative ex 1.1.26 logic.
+# Not exactly that logic.
 # But, generalizing it for n.
 # I think this is bubble sort
-
 class SortN
   def sort_the_numbers(array)
-
-    # outer loop goes from A[0] to
     array.each_index do |outer|
 
-
-      # inner loop goes from A[0] to
       array.each_index do |inner|
+        if inner < (array.length) - 1
 
-        puts "In outer loop #{outer} , and inner loop #{inner}"
+          if array[inner] < array[inner + 1]
 
-        if inner < array.length - 1
-          if array[outer] > array[inner + 1]
-
-            array[outer], array[inner + 1] =
-                swap_values(array[outer], array[inner + 1])
+            array[inner], array[inner + 1] =
+                swap_values(array[inner], array[inner + 1])
 
           end
 
-
         end
-      end
-    end
 
-    puts array
+      end
+
+    end
     array
   end
 

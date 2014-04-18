@@ -62,7 +62,6 @@ describe 'Sorting four numbers' do
 
   end
 
-
 end
 
 # Deprecation of should method for array
