@@ -43,13 +43,13 @@ describe 'Find a number using Binary Search' do
 
   end
 
-  it 'should return 3 when 4 found in 1, 2, 3, 4 ..10  ' do
+  it 'should return 9 when 10 found in 1, 2, 3, 4 ..10  ' do
 
     search_result = BinarySearch.new
 
-    position = search_result.find_the_number(4, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+    position = search_result.find_the_number(10, [1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
 
-    expect(position).to eq(3)
+    expect(position).to eq(9)
 
   end
 

@@ -4,23 +4,41 @@ class BinarySearch
 
     lo = 0
     hi = array_sorted.length - 1
-    mid = (hi - lo) / 2
 
-    # First half of the search array
-    (lo..mid).each do |element|
-      if number_to_find == array_sorted[element]
-        puts "found #{number_to_find} at #{element}"
-        return element
+    # check if mid array is the number_to_find
+
+    while lo <= hi
+
+      mid = lo + ((hi - lo) / 2)
+
+      if number_to_find < array_sorted[mid]
+        hi = mid - 1
+
+        # First half of the search array
+        #
+        # (lo..mid).each do |element|
+        #   puts "Entered first half."
+        #   if number_to_find == array_sorted[element]
+        #     puts "In first half, found #{number_to_find} at #{element}"
+        #     return element
+        #   end
+        #
+        # end
+
+      elsif number_to_find > array_sorted[mid]
+        lo = mid + 1
+        # Second half of the search array
+        # (mid+1..hi).each do |element|
+        #   puts "Entered second half."
+        #   if number_to_find == array_sorted[element]
+        #     puts "In second half, #{array_sorted[element]} at #{element}"
+        #     return element
+        #   end
+        # end
+
       end
-    end
+      return mid
 
-
-    # Second half of the search array
-    (mid+1..hi).each do |element|
-      if number_to_find == array_sorted[element]
-        puts "Found #{array_sorted[element]} at #{element}"
-        return element
-      end
     end
 
 
