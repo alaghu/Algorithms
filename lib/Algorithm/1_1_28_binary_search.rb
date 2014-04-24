@@ -1,7 +1,6 @@
 # To search using binary search
 class BinarySearch
   def find_the_number(number_to_find, array_sorted)
-
     lo = 0
     hi = array_sorted.length - 1
 
@@ -21,9 +20,6 @@ class BinarySearch
 
     end
 
-    return -1
-
-
+    -1
   end
 end
-
