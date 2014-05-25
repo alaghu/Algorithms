@@ -1,7 +1,7 @@
 language: ruby
 bundler_args: "--without development"
-#script: "bundle exec rake"
+script: "bundle exec rake spec"
 
-script: "bundle exec rspec features/"
+#script: "bundle exec rspec features/"
 rvm:
   - 2.0.0
