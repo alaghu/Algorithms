@@ -16,7 +16,6 @@ Anand
 [![Code Climate](https://codeclimate.com/github/alaghu/Algorithms.png)](https://codeclimate.com/github/alaghu/Algorithms)
 
 [![PullReview stats](https://www.pullreview.com/github/alaghu/Algorithms/badges/master.svg?)](https://www.pullreview.com/github/alaghu/Algorithms/reviews/master)
-==========
 
 
 
