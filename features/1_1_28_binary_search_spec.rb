@@ -76,7 +76,6 @@ describe 'Find a number using Binary Search' do
 
   array_tiny.sort!
 
-
   array_large_W = []
 
   File.open("Files/WhiteListFiles/largeW.txt") do |file|
@@ -89,7 +88,6 @@ describe 'Find a number using Binary Search' do
 
   array_large_W.sort!
 
-
   array_large_T = []
 
   File.open("Files/WhiteListFiles/largeT.txt") do |file|
@@ -101,7 +99,6 @@ describe 'Find a number using Binary Search' do
   end
 
   array_large_T.sort!
-
 
 # puts "This is the array_tiny #{array_tiny}"
 
