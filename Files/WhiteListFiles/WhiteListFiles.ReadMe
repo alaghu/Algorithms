@@ -1,0 +1,11 @@
+The files in this directory were primarily obtained from Robert SedgeWink and Kevin Wayne's web page http://algs4.cs.princeton.edu/home/ .
+
+
+There is a entire section for data files in http://introcs.cs.princeton.edu/java/data/
+
+However, the four files listed below are obtained from http://algs4.cs.princeton.edu/code/ under whitelist client section, which is primarily used for testing and benchmarking sort algorithms.
+
+tinyT.txt
+tinyW.txt
+largeW.txt
+largeT.txt
