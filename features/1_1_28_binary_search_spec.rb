@@ -105,12 +105,12 @@ describe 'Find a number using Binary Search' do
   lets_search = BinarySearch.new
 
   Benchmark.bm do |x|
-    x.report("Array.Any? tiny          ") { array_tiny.any? { |n| n == 84 } }
-    x.report("BinarySearch.find-tiny   ") { lets_search.find_the_number(84, array_tiny) }
-    x.report("Array.Any? large_W       ") { array_large_W.any? { |n| n == 84 } }
-    x.report("BinarySearch.find-large_W") { lets_search.find_the_number(84, array_large_W) }
-    x.report("Array.Any? large_T       ") { array_large_T.any? { |n| n == 84 } }
-    x.report("BinarySearch.find-large_T") { lets_search.find_the_number(84, array_large_T) }
+    x.report('Array.Any? tiny          ') { array_tiny.any? { |n| n == 84 } }
+    x.report('BinarySearch.find-tiny   ') { lets_search.find_the_number(84, array_tiny) }
+    x.report('Array.Any? large_W       ') { array_large_W.any? { |n| n == 84 } }
+    x.report('BinarySearch.find-large_W') { lets_search.find_the_number(84, array_large_W) }
+    x.report('Array.Any? large_T       ') { array_large_T.any? { |n| n == 84 } }
+    x.report('BinarySearch.find-large_T') { lets_search.find_the_number(84, array_large_T) }
   end
 
 end
