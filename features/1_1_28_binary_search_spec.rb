@@ -66,9 +66,9 @@ describe 'Find a number using Binary Search' do
 
   array_tiny = []
 
-  File.open("Files/WhiteListFiles/tinyW.txt") do |file|
+  File.open('Files/WhiteListFiles/tinyW.txt') do |file|
     file.each_line do |line|
-      # puts line.to_i
+
       array_tiny << line.to_i
     end
 
@@ -78,7 +78,7 @@ describe 'Find a number using Binary Search' do
 
   array_large_W = []
 
-  File.open("Files/WhiteListFiles/largeW.txt") do |file|
+  File.open('Files/WhiteListFiles/largeW.txt') do |file|
     file.each_line do |line|
 
       array_large_W << line.to_i
@@ -90,7 +90,7 @@ describe 'Find a number using Binary Search' do
 
   array_large_T = []
 
-  File.open("Files/WhiteListFiles/largeT.txt") do |file|
+  File.open('Files/WhiteListFiles/largeT.txt') do |file|
 
     file.each_line do |line|
       array_large_T << line.to_i
