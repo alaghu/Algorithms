@@ -1,6 +1,5 @@
 # To search using binary search
 class BinarySearch
-
   # This method returns the position (index) of the number to be found in a sorted array.
   # If no results are found -1 is returned.
   #
