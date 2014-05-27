@@ -68,7 +68,7 @@ describe 'Find a number using Binary Search' do
   # Each of these files are opened fed into an array and sorted. 
   # In the last section we compare the times to search through each of these arrays using the native ruby find method 'any?' vs the BinarySearch's find_the_number.
   
-  #todo - refactor the three files repetitiveness 
+  # todo - refactor the three files repetitiveness
   require 'benchmark'
 
   # First File - processing 'tinyW.txt' 
