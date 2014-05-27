@@ -25,7 +25,6 @@ class SortN
     array
   end
 
-
   # This method takes two values as input and returns their values interchanged.
   def swap_values(value1, value2)
     temp = value1
