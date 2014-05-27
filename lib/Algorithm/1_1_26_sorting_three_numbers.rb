@@ -1,5 +1,7 @@
 # To sort three numbers creative ex 1.1.26
+# This is superseded by sort_n_numbers
 class SortThree
+  # This method takes three values and returns and array that is sorted.
   def sort_the_numbers(a, b, c)
     # sort one by one upto three
     a, b = swap_values(a, b) if a > b
@@ -11,6 +13,7 @@ class SortThree
     [a, b, c]
   end
 
+  # This method takes two values as input and returns their values interchanged.
   def swap_values(value1, value2)
     temp = value1
     value1 = value2

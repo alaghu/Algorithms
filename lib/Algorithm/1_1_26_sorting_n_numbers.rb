@@ -3,6 +3,7 @@
 # But, generalizing it for n.
 # I think this is bubble sort
 class SortN
+  # This method takes an array as input and returns a sorted one.
   def sort_the_numbers(array)
     array.each_index do |outer|
 
@@ -24,6 +25,8 @@ class SortN
     array
   end
 
+
+  # This method takes two values as input and returns their values interchanged.
   def swap_values(value1, value2)
     temp = value1
     value1 = value2
