@@ -13,7 +13,7 @@ class SortThree
     [a, b, c]
   end
 
-  # This method takes two values as input and returns their values interchanged.
+  # This method returns the two values passes but interchanged.
   def swap_values(value1, value2)
     temp = value1
     value1 = value2
