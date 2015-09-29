@@ -1,7 +1,7 @@
 Algorithms
 
-These are my attempt to learn Algorithms and Ruby. The  and exercises are based on Algorithms, Fourth Edition
-by Robert Sedgewink and Kevin Wayne. Though the book uses Java, I have attempted a selection of exercises in ruby.On a similair note, I have tried to stick to Test Driven Development by using rspec.
+This is my attempt to learn Algorithms and Ruby. The exercises are based on Algorithms, Fourth Edition
+by Robert Sedgewink and Kevin Wayne. Though the book uses Java, I have attempted a selection of exercises in ruby. On a similair note, I have tried to stick to Test Driven Development by using rspec.
 
 Thanks
 
