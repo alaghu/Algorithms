@@ -1,7 +1,10 @@
 # To sort n numbers using the creative ex 1.1.26 logic.
+# 
 # Not exactly that logic.
 # But, generalizing it for n.
 # I think this is bubble sort
+
+
 class SortN
   # This method takes an array as input and returns a sorted one.
   def sort_the_numbers(array)

@@ -1,4 +1,5 @@
 # To sort three numbers creative ex 1.1.26
+# http://techbus.safaribooksonline.com/book/software-engineering-and-development/algorithms/9780132762571/1dot1-basic-programming-model/h4_78?uicode=oracle
 # This is superseded by sort_n_numbers
 class SortThree
   # This method takes three values and returns and array that is sorted.
