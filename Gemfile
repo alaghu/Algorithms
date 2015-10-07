@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # ruby version
-ruby '2.0.0'
+ruby '2.1.1'
 
 # rspec testing framework
 gem 'rspec'
