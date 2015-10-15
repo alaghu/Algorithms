@@ -2,7 +2,7 @@ require_relative 'spec_helper'
 
 describe 'Binomial Distribution' do
 
-  it 'should return 1 when N and K are 0' do
+  it 'should return 1 when n and k are 0' do
 
     bino = Distribution.new
 
@@ -10,6 +10,16 @@ describe 'Binomial Distribution' do
 
     expect(output).to eq(1.0)
 
+  end
+  
+  it 'should return 0 when n is less than 0 ' do
+
+  bino = Distribution.new
+  
+  output = bino.binomial(-1, 1, 1)
+  
+  expect(output).to eq(0)
+  
   end
 
 end
