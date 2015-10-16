@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # ruby version
-ruby '2.1.1'
+ruby '2.2.1'
 
 # rspec testing framework
 gem 'rspec'
@@ -14,3 +14,6 @@ gem 'simplecov'
 gem 'coveralls', require: false
 
 gem 'rake'
+
+
+gem 'rubocop'
