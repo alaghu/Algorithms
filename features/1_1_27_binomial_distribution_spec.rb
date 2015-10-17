@@ -16,8 +16,38 @@ describe 'Binomial Distribution' do
 
     expect(output).to eq(0)
   end
+
+  # create test cases for simple input with increment of 1 for each variable
+  # such as n, k , p
+
+  # Refer to
+  #  n   k  p  output
+  #  1   1  1    1
+  #  2   2  2
+
+
+  it 'should return 1 when n, k , p = 1 ' do
+    bino = Distribution.new
+
+    output = bino.binomial(1 , 1, 1)
+
+    expect(output).to eq(1)
+  end
+
+
+  # it 'should return 1 when n, k , p = 1 ' do
+  #   bino = Distribution.new
+  #
+  #   output = bino.binomial(10 , 51, 0.25)
+  #
+  #   puts output
+  #
+  #   expect(output).to eq(1)
+  # end
+
+
 end
-# Deprecation of should method for array
-# output.should be [1, 2, 3]
-# http://stackoverflow.com/questions/21102549/
-# why-is-the-where-query-in-rails-returning-a-different-object
+
+
+
+
