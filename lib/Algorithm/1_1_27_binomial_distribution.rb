@@ -8,7 +8,7 @@ class Distribution
 
     elsif (n < 0) || (k < 0)
 
-      return 0.0
+      0.0
 
     else
 

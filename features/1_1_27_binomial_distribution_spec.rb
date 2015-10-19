@@ -25,16 +25,13 @@ describe 'Binomial Distribution' do
   #  1   1  1    1
   #  2   2  2
 
-
   it 'should return 1 when n, k , p = 1 ' do
     bino = Distribution.new
 
-    output = bino.binomial(1 , 1, 1)
+    output = bino.binomial(1, 1, 1)
 
     expect(output).to eq(1)
   end
-
-
   # it 'should return 1 when n, k , p = 1 ' do
   #   bino = Distribution.new
   #
@@ -44,10 +41,4 @@ describe 'Binomial Distribution' do
   #
   #   expect(output).to eq(1)
   # end
-
-
 end
-
-
-
-

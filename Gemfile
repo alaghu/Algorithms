@@ -1,6 +1,4 @@
 source 'https://rubygems.org'
-
-
 # ruby version
 ruby '2.2.1'
 
@@ -15,5 +13,5 @@ gem 'coveralls', require: false
 
 gem 'rake'
 
-
+# Favourite code clean up
 gem 'rubocop'

@@ -10,14 +10,10 @@ class LargestInteger
     largest = 0
 
     integers.each do |integer_iteration|
-
       if integer_iteration.is_a? Integer
         largest = integer_iteration if integer_iteration > largest
-
       end
-
     end
-
     largest
   end
 end
