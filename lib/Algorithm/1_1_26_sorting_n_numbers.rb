@@ -6,32 +6,24 @@
 class SortN
   # This method takes an array as input and returns a sorted one.
   def sort_the_numbers(array)
-    # Goes through all the values 1 to n ,
-    array.each_index do |outer|
-      # to print outer
-      p "outer_index = #{outer}"
+    # Iterating through every element. However, not passing any input to block.
+    array.each do
+      # Going goes through 1 to n
+      array.each_index do |index|
+        # Skip this value if index > (array.length) - 1
+        next unless index < (array.length) - 1
 
-      # Once again goes through 1 to n
-      array.each_index do |inner|
-        # to print inner
-        p "inner_index = #{inner}"
+        next_val = index + 1
 
-        # sample iteration
-        # i1 - 1 < n - 1
-        if inner < (array.length) - 1
-
-          # i1 - if 1's value < 2's value
-          if array[inner] < array[inner + 1]
-
-            # i1 - swap
-            # Swappinh the values
-            array[inner], array[inner + 1] = swap_values(array[inner], array[inner + 1])
-          end
-        end
+        assign_values(array, index, next_val) if array[index] < array[next_val]
       end
     end
-    p "End of Outer ----"
     array
+  end
+
+  # assigns the values to the two array values
+  def assign_values(array, index, next_val)
+    array[index], array[next_val] = swap_values(array[index], array[next_val])
   end
 
   # This method returns the two values as an array but swapped.
