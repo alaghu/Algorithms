@@ -7,4 +7,4 @@ bundler_args: "--without development"
 script: "rake spec"
 
 rvm:
-  - 2.0.0
+  - 2.2.1
