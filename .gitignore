@@ -1,4 +1,6 @@
 coverage/
 /.c9/
 .idea/
+/features/rubocop*
+
 

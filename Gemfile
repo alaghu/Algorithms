@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 ruby '2.2.1'
 
 # rspec testing framework
-gem 'rspec'
+gem 'rspec', '3.3.0'
 
 # for code coverage
 gem 'simplecov'
@@ -11,7 +11,7 @@ gem 'simplecov'
 # online code coverage
 gem 'coveralls', require: false
 
-gem 'rake'
+gem 'rake', '10.4.2'
 
 # Favourite code clean up
-gem 'rubocop'
+gem 'rubocop', '0.34.2'
